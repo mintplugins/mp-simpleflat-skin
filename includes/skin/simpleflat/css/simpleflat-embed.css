@@ -1,0 +1,108 @@
+@import url("simpleflaticonfont.css");
+
+/*Player Container - Push video above controls*/
+.mpvsyt-container{
+	display:block;
+}
+.mpvsyt-video-container{
+	height:100%;
+	width:100%;
+	padding-bottom:45px;	
+	position:relative;
+	-moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box;
+}
+/*Player Controls*/
+.mpvsyt-controls{
+	display:table;
+	width:100%;
+	height: 45px;
+	position: absolute;
+	bottom:0px;
+	background-color: #F00;
+	overflow: hidden;	
+	vertical-align:bottom;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.mpvsyt-controls > div{
+	padding:0px 8.5px 0px 8.5px;
+}
+.mpvsyt-controls > div:first-child{
+	padding:0px 8.5px 0px 17px;
+}
+.mpvsyt-controls > div:last-child{
+	padding:0px 17px 0px 8.5px;
+}
+/*All Controls Buttons*/
+.mpvsyt-control-buttons-container{
+	display:table-cell;
+	vertical-align:middle;
+	width:1px;
+}
+.mpvsyt-controls a{
+	text-decoration:none;
+	color:#DFDFDF;
+}
+/*All Controls when hovered*/
+.mpvsyt-controls a:hover{
+	color:#878787;	
+}
+
+/*Pause Button*/
+.mpvsyt-controls .mpvsyt-pause-btn{
+	display:none;
+}
+
+/*Seek Bar*/
+.mpvsyt-seek-container{
+	display:table-cell;
+	vertical-align:middle;
+}
+.mpvsyt-seek-area{
+	height: 10px;
+	position:relative;
+	background-color:#999;	
+	border-radius:10px;
+	-webkit-border-radius: 10px; 
+	/* Firefox 1-3.6 */ -moz-border-radius:10px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.mpvsyt-seek-bar{
+	background-color:#FFF;
+	display:inline-block;
+	position:absolute;
+	height: 10px;
+}
+.mpvsyt-loaded-bar{
+	background-color:#CCC;
+	display:inline-block;
+	position:absolute;
+	height: 10px;
+}
+
+/* Volume Bar */
+.mpvsyt-control-volume-container{
+	display:table-cell;
+	vertical-align:middle;
+	width: 82px;	
+}
+.mpvsyt-volume-area{
+	height: 10px;
+	position:relative;
+	background-color:#999;	
+	border-radius:10px;
+	overflow:hidden;
+}
+.mpvsyt-volume-bar{
+	background-color:#FFF;
+	display:inline-block;
+	position:absolute;
+	height: 10px;	
+}
