@@ -21,7 +21,7 @@
 	height: 45px;
 	position: absolute;
 	bottom:0px;
-	background-color: #F00;
+	background-color: #000;
 	overflow: hidden;	
 	vertical-align:bottom;
 	-webkit-box-sizing: border-box;
@@ -48,15 +48,33 @@
 .mpvsyt-controls a{
 	text-decoration:none;
 	color:#DFDFDF;
+	
+	font-family: 'fontello';
+	font-style: normal;
+	font-size: 16px;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	text-align: center;
+	line-height: 1px;
 }
 /*All Controls when hovered*/
 .mpvsyt-controls a:hover{
 	color:#878787;	
 }
 
+/*Play Button*/
+.mpvsyt-controls .mpvsyt-play-btn:before{
+	content: '\25b6';
+}
+
 /*Pause Button*/
 .mpvsyt-controls .mpvsyt-pause-btn{
 	display:none;
+}
+.mpvsyt-controls .mpvsyt-pause-btn:before{
+	content: '\2389'; 
 }
 
 /*Seek Bar*/
@@ -105,4 +123,9 @@
 	display:inline-block;
 	position:absolute;
 	height: 10px;	
+}
+
+/*Fullscreen Button*/
+.mpvsyt-fullscreen-btn:before{
+	content: '\f0b2';	
 }
