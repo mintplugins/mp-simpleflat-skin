@@ -3,7 +3,7 @@
 Plugin Name: MP SimpleFlat Skin
 Plugin URI: http://moveplugins.com
 Description: A simple and flat YouTube player skin!
-Version: beta1.0.0.1
+Version: beta1.0.0.2
 Author: Move Plugins
 Author URI: http://moveplugins.com
 Text Domain: mp_simpleflat_skin
